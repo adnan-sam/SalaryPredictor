@@ -47,7 +47,7 @@ def show_predict_page():
 
     experience = st.slider("Years of Experience", 0,50,3)
 
-    ok = st.button("Calculate Sakary")
+    ok = st.button("Calculate Salary")
 
     if ok:
         X = np.array([[country, education, experience ]])
